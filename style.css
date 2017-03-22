@@ -1,0 +1,109 @@
+.alternate-color{
+  color: darkgoldenrod;
+}
+
+.main-header {
+  height: 230px;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e9/2e/b2/e92eb2f9bbe5336c13818c3eabceb898.png");
+  background-size: contain;
+  background-position: center; 
+  position: relative;
+}
+
+h1 {
+  background-color: #b76e79;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 5; 
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+}
+
+.intro { 
+  font-size: 1.4em;
+  text-align: left;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  background: -webkit-linear-gradient(right, white, #ffb6c1);
+  background: linear-gradient(to left, white, #ffb6c1);
+}
+
+.section-header {
+  height: 200px;
+  border-top: 3px solid grey; 
+  background-image: url("https://raw.githubusercontent.com/wdi-sg/smart-coding-101/master/images/bgs/3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+}
+
+footer {
+  padding: 10px;
+  border-top: 2px dashed goldenrod;
+  text-align: center;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.link-item {
+  width: 300px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgrey;
+  letter-spacing: 0.3em;
+  color: goldenrod;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.link-item:hover {
+  background-color: PaleGoldenRod;
+}
